@@ -1,53 +1,73 @@
-:root{
+:root {
   padding: 0rem;
   margin: 0%;
   overflow-x: hidden;
   background-color: #216fc7;
+} 
+
+body {
+  height: 150vh;
 }
 
-#navbar{
+#navbar {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
   width: 100vw;
   height: 10rem;
-  background-color: #124076;
-  border-bottom: 0.2rem solid whitesmoke;
-  box-shadow: 0.5rem 0.5rem 5rem whitesmoke;
+  position: fixed;
 }
 
-.titulo{
+.titulo {
   font-weight: bold;
   font-size: 2rem;
   color: whitesmoke;
 }
 
-.icono{
-  color: whitesmoke;
+.icono {
+  color: #216fc7;
   font-size: 4rem;
+  background-color: whitesmoke;
 }
 
-.animacion{
+.animacion {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   gap: 0.5rem;
 }
 
-.animacion:hover{
+.animacion:hover {
   animation: infinite titulo 2.5s ease-out;
 }
 
 @keyframes titulo {
-  0%{
+  0% {
     transform: scale(1);
   }
-  50%{
+  50% {
     transform: scale(1.1);
   }
-  100%{
+  100% {
     transform: scale(1);
-    
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes desaparecer {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }

@@ -9,6 +9,12 @@ body {
   height: 150vh;
 }
 
+#top{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -16,7 +22,6 @@ body {
   align-items: center;
   width: 100vw;
   height: 10rem;
-  position: fixed;
 }
 
 .titulo {
@@ -42,6 +47,15 @@ body {
   animation: infinite titulo 2.5s ease-out;
 }
 
+#borde{
+  width: 100vw;
+  height: 5px;
+  position: static;
+  background-color: whitesmoke;
+}
+
+
+
 @keyframes titulo {
   0% {
     transform: scale(1);
@@ -66,6 +80,7 @@ body {
 @keyframes desaparecer {
   0% {
     opacity: 1;
+    background-color: whitesmoke;
   }
   100% {
     opacity: 0;

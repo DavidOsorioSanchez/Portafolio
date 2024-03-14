@@ -1,13 +1,13 @@
 import './main'
+import Logos from "./Logos.jsx"
 import ComponenteTarjeta from './componenteTarjeta'
 import './App.css'
-import { useEffect } from 'react';
 
 function App() {
   return (
-    <body>
+    <>
       
-      <nav  class='w-full h-12 p-2 m-0'>
+      <nav  id='top'>
         <div id='navbar'>
 
         
@@ -20,12 +20,12 @@ function App() {
             </p>
           <div>
             {document.addEventListener("scroll", () => {
-              const navbar = document.getElementById("navbar");
-              if (window.pageYOffset > 50) {
-                navbar.style = "border-bottom: 0.2rem  solid whitesmoke; animation: normal aparecer 0.5s ease;";
+              const borde = document.getElementById("borde");
+              if (window.pageYOffset < 50) {
+                borde.style = "opacity: 0; animation: normal desaparecer 1s ease;";
               }
-              if(window.pageYOffset < 50) {
-                navbar.style = "::before  animation: normal desaparecer 0.5s ease;";
+              if(window.pageYOffset > 50) {
+                borde.style = "animation: normal aparecer 1s ease;";
               }
             })}
           </div>
@@ -33,7 +33,12 @@ function App() {
         <div id='borde'></div>
       </nav>
       {/* <ComponenteTarjeta />  */}
-    </body>
+      <main>
+          <Logos links="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"/>
+          <Logos links="http://blog.desafiolatam.com/wp-content/uploads/2018/05/sql-logo.png"/>
+          <Logos links="http://blog.desafiolatam.com/wp-content/uploads/2018/05/java-logo.png"/>
+      </main>
+    </>
   )  
 }
 

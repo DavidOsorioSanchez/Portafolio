@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Logos ({links}){
+function Logos ({links, miAnimacion}){
     return(
         <>
-            <img src={links} alt="no cargo T_T"/>
+            <img className={`iconoProgramacion ${miAnimacion}`} src={links} alt="no cargo T_T"/>
         </>
     )
         

@@ -1,6 +1,6 @@
 import './main'
-import Logos from "./Logos.jsx"
 import ComponenteTarjeta from './componenteTarjeta'
+import Portada from './Portada.jsx'
 import './App.css'
 
 function App() {
@@ -32,14 +32,12 @@ function App() {
         </div>
         <div id='borde'></div>
       </nav>
+      
       {/* <ComponenteTarjeta />  */}
-      <main>
-          <Logos links="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"/>
-          <Logos links="http://blog.desafiolatam.com/wp-content/uploads/2018/05/sql-logo.png"/>
-          <Logos links="http://blog.desafiolatam.com/wp-content/uploads/2018/05/java-logo.png"/>
-      </main>
+      <Portada/>
+        
     </>
   )  
 }
 
-export default App
+export default App;

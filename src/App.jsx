@@ -2,7 +2,7 @@ import './main'
 import ComponenteTarjeta from './componenteTarjeta'
 import Portada from './Portada.jsx'
 import './App.css'
-
+import './index.css'
 function App() {
   return (
     <>

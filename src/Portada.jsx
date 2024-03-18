@@ -1,6 +1,7 @@
 import React from 'react'
 import Logos from './Logos';
-import './App.css'
+import '././css/index.css'
+import '././css/App.css'
 
 function Portada (){
     return(

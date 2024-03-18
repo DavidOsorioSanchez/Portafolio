@@ -106,6 +106,14 @@ body {
   position: absolute;
 }
 
+.iconoProgramacion:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 /* iconos izquierda */
 
 .JS {
@@ -293,7 +301,7 @@ body {
     transform: rotate(0deg);
     top: 50vh;
   }
-  
+
   100% {
     top: 100vh;
     opacity: 0;
@@ -308,10 +316,10 @@ body {
     transform: rotate(0deg);
     top: 50vh;
   }
-  40%{
+  40% {
     left: 30vw;
   }
-  
+
   100% {
     top: 100vh;
     opacity: 0;
@@ -319,7 +327,6 @@ body {
     transform: rotate(65deg);
   }
 }
-
 
 /* animacion JAVA */
 
@@ -329,7 +336,7 @@ body {
     transform: rotate(-10deg);
     top: 65vh;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -345,7 +352,7 @@ body {
     transform: rotate(-10deg);
     top: 65vh;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -362,11 +369,11 @@ body {
     top: 20vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     left: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -381,11 +388,11 @@ body {
     top: 20vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     left: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -402,11 +409,11 @@ body {
     top: 65vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     left: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -421,11 +428,11 @@ body {
     top: 65vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     left: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -437,20 +444,18 @@ body {
 
 /* animacion HTML */
 
-
 @-moz-keyframes entradaHTML {
   0% {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
     top: 20vh;
-
   }
 
-  30%{
+  30% {
     top: 50vh;
     left: 4vw;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -465,14 +470,13 @@ body {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
     top: 20vh;
-
   }
 
-  30%{
+  30% {
     top: 50vh;
     left: 4vw;
   }
-  
+
   100% {
     top: 100vh;
     left: 30vw;
@@ -541,7 +545,7 @@ body {
     transform: rotate(0deg);
     top: 45vh;
   }
-  
+
   100% {
     top: 100vh;
     opacity: 0;
@@ -556,7 +560,7 @@ body {
     transform: rotate(0deg);
     top: 45vh;
   }
-  
+
   100% {
     top: 100vh;
     opacity: 0;
@@ -573,7 +577,7 @@ body {
     transform: rotate(-10deg);
     top: 70vh;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;
@@ -589,7 +593,7 @@ body {
     transform: rotate(-10deg);
     top: 70vh;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;
@@ -606,11 +610,11 @@ body {
     top: 20vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     right: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;
@@ -625,11 +629,11 @@ body {
     top: 20vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     right: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;
@@ -646,11 +650,11 @@ body {
     top: 20vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     right: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;
@@ -665,11 +669,11 @@ body {
     top: 20vh;
   }
 
-  30%{
+  30% {
     top: 40vh;
     right: 50vw;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;
@@ -686,14 +690,13 @@ body {
     -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
     top: 65vh;
-
   }
 
-  30%{
+  30% {
     top: 50vh;
     right: 4vw;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;
@@ -708,14 +711,13 @@ body {
     -webkit-transform: rotate(-15deg);
     transform: rotate(-15deg);
     top: 65vh;
-
   }
 
-  30%{
+  30% {
     top: 50vh;
     right: 4vw;
   }
-  
+
   100% {
     top: 100vh;
     right: 30vw;

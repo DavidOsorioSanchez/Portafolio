@@ -4,8 +4,8 @@ import '././css/App.css'
 
 function Portafolio() {
   return (
-    <div class='w-screen h-72 bg-gradient-to-r from-cyan-500 to-blue-500'>
-      hola
+    <div className='w-screen h-96 bg-Fondo-Estrellas'>
+
     </div>
   )
 }

@@ -8,6 +8,9 @@ export default {
     extend: {},
     colors:{
       
+    },
+    backgroundImage: {
+      'Fondo-Estrellas': "url('src/assets/Fondo.jpg')"
     }
   },
   plugins: [],

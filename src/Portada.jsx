@@ -2,6 +2,7 @@ import React from 'react'
 import Logos from './Logos';
 import '././css/index.css'
 import '././css/App.css'
+import '././css/Portada.scss'
 
 function Portada (){
     return(

@@ -1,13 +1,13 @@
 import React from 'react'
+import '././css/index.css'
 
 function ComponenteTarjeta (){
 
     return(
-        <>
-            <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1>
-        </>
+        <div className='w-1/3 max-w-64 h-96 m-4 rounded-2xl bg-BlancoTransparente'>
+            
+            <h1>Hello Word</h1>
+        </div>
     )
         
 

@@ -2,7 +2,7 @@
   padding: 0rem;
   margin: 0%;
   overflow-x: hidden;
-  background-color: #216fc7;
+  background-image: url(./../assets/Fondo.jpg);
 }
 
 body {
@@ -89,3 +89,6 @@ body {
   }
 }
 
+#tarjeta1 {
+  background-image: url(https://blog.hubspot.es/hubfs/media/diferenciassitioypaginaweb.png);
+}

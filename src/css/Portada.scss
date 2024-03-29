@@ -4,9 +4,10 @@
   background-image: url(https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/non-4k/original/07.jpg?3);
   width: 100%;
   background-size: 100% 100%;
-  object-fit: contain;
+  object-fit: cover;
   height: 100vh;
   position: relative;
+  padding: 2rem;
 }
 
 .iconoProgramacion {
@@ -653,4 +654,43 @@
     -webkit-transform: rotate(-65deg);
     transform: rotate(-65deg);
   }
+}
+
+
+
+@media only screen and (max-width: 1000px){
+  .main{
+    padding: 2rem;
+    padding-top: 10rem;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .iconoProgramacion{
+    position: relative;
+    width:  120px;
+    height: 120px;
+    object-fit: fill;
+    top:auto;
+    left: auto;
+    right: auto;
+    transform: rotate(0deg);
+  }
+}
+
+
+@media only screen and (min-width: 2500px) {
+  
+  .iconoProgramacion{
+    transform: scale(1.5);
+  }
+
+  .iconoProgramacion:hover{
+    transform: scale(1.7);
+  }
+  
 }

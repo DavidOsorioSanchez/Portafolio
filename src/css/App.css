@@ -20,17 +20,18 @@ body {
 
 #navbar {
   display: flex;
-  justify-content: space-between;
   padding: 1rem;
-  align-items: center;
+  align-items: flex-start;
   width: 100vw;
   height: 10rem;
+  
 }
 
 .titulo {
   font-weight: bold;
   font-size: 2rem;
   color: whitesmoke;
+  z-index: 100;
 }
 
 .icono {
@@ -51,12 +52,6 @@ body {
   animation: infinite titulo 2.5s ease-out;
 }
 
-#borde {
-  width: 100vw;
-  height: 5px;
-  position: static;
-  background-color: whitesmoke;
-}
 
 @keyframes titulo {
   0% {
@@ -89,6 +84,4 @@ body {
   }
 }
 
-#tarjeta1 {
-  background-image: url(https://blog.hubspot.es/hubfs/media/diferenciassitioypaginaweb.png);
-}
+

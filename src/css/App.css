@@ -4,9 +4,20 @@
   overflow-x: hidden;
   background-image: url(./../assets/Fondo.jpg);
 }
+::-webkit-scrollbar{
+  width: 0.6rem;
+  background-color: #242021;
+  
+}
 
-body {
-  height: 150vh;
+::-webkit-scrollbar-button{
+  display: none;
+}
+
+::-webkit-scrollbar-thumb{
+  border: 0.1rem  solid #8c8c8c;
+  background-color: #dbdbdb;
+  border-radius: 3rem;
 }
 
 /*******************************navbar********************************/
@@ -16,14 +27,15 @@ body {
   flex-direction: column;
   position: fixed;
   z-index: 1;
+  left: 1vw;
+  top: 1vh;
 }
 
 #navbar {
   display: flex;
-  padding: 1rem;
   align-items: flex-start;
-  width: 100vw;
-  height: 10rem;
+  width: auto;
+  height: auto;
   
 }
 
@@ -62,25 +74,6 @@ body {
   }
   100% {
     transform: scale(1);
-  }
-}
-
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes desaparecer {
-  0% {
-    opacity: 1;
-    background-color: whitesmoke;
-  }
-  100% {
-    opacity: 0;
   }
 }
 

@@ -3,7 +3,7 @@ import './App'
 
 function Navbar() {
   return (
-    <nav  id='top'>
+    <nav  id='top' >
         <div id='navbar'>
             <p class="animacion">
               <span class="icono material-symbols-outlined bg-white rounded-lg">

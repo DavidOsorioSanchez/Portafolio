@@ -12,11 +12,11 @@ function Informacion() {
                 <div className='flex w-full justify-around flex-wrap gap-9'>
                     <div className='flex gap-4 items-center'>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" className='w-12 h-12 ' alt="no cargo" />
-                        <p className='text-blancoEstrella text-xl'>David Alejandro Osorio Sanchez</p>
+                        <a className='text-blancoEstrella text-xl active:text-colorBordePerfil active:underline active:decoration-solid' href="https://www.linkedin.com/in/david-alejandro-osorio-sanchez-662a6624b/?trk=public-profile-join-page" target='_blank'>David Alejandro Osorio Sanchez</a>
                     </div>
                     <div className='flex gap-4 items-center'>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" className='w-12 h-12 bg-blancoEstrella rounded-full' alt="no cargo" />
-                        <p className='text-blancoEstrella text-xl'>@DavidOsorioSanchez</p>
+                        <a className='text-blancoEstrella text-xl active:text-colorBordePerfil active:underline active:decoration-solid' href="https://github.com/DavidOsorioSanchez/Portafolio.git" target='_blank'> @DavidOsorioSanchez</a>
                     </div>
                 </div>
             </div>

@@ -16,6 +16,7 @@ export default {
       colorActivoFront: "#E8751A",
       colorActivoBack: "#007F73",
       colorBordePerfil: "#00A9FF",
+      colorFooter: "#110f10"
     },
     backgroundImage: {
       "Fondo-Estrellas": "url('src/assets/Fondo.jpg')",
@@ -42,6 +43,9 @@ export default {
         "50%": { transform: "rotate(180deg)" },
         "100%": { transform: "rotate(360deg)" },
       },
+    },
+    brightness: {
+      25: '.25',
     },
   },
   plugins: [],

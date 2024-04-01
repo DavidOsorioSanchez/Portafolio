@@ -22,7 +22,7 @@ function Portafolio() {
   };
 
   return (
-    <div className="w-screen h-auto bg-Fondo-Estrellas">
+    <div className="w-screen h-auto bg-Fondo-Estrellas my-12">
       <div className="w-screen h-auto flex flex-col py-12 gap-8">
         <p className="w-screen h-auto flex justify-center text-blancoEstrella font-bold text-5xl">
           Trabajos Hechos

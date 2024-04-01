@@ -7,8 +7,7 @@ import '././css/Portada.scss'
 function Portada (){
     return(
         <div class="main">
-            {/* foto central */}
-            <Logos miAnimacion="foto" links="./assets/miFoto.png" /> 
+            
 
             {/* targeta parte izquierda */}
             <Logos miAnimacion="JS" links="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png" /> 

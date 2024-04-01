@@ -17,6 +17,7 @@ export default {
       "colorDeAccion":"#9290C3",
       "colorActivoFront":"#E8751A",
       "colorActivoBack":"#007F73",
+      "colorBordePerfil":"#00A9FF"
     },
     backgroundImage: {
       "Fondo-Estrellas": "url('src/assets/Fondo.jpg')",
@@ -27,12 +28,19 @@ export default {
     animation: {
       bajada: "normal pabajo 2s ease-in-out",
       transicion: "normal 1s ease-in",
+      giro: 'giro 10s linear infinite'
     },
     keyframes: {
       pabajo: {
         "0%, 100%": { transform: "translateY(0rem)", opacity: 1 },
         "0%": { transform: "translateY(-10rem)", opacity: 0 },
       },
+      giro: {
+        "0%": {transform: "rotate(0deg)"},
+        "50%": {transform: "rotate(180deg)"},
+        "100%": {transform: "rotate(360deg)"}
+
+      }
     },
   },
   plugins: [],

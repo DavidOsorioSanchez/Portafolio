@@ -47,7 +47,7 @@
 }
 
 .icono {
-  color: #216fc7;
+  color: #00A9FF;
   font-size: 3rem;
   background-color: whitesmoke;
 }
@@ -63,7 +63,6 @@
   -webkit-animation: infinite titulo 2.5s ease-out;
   animation: infinite titulo 2.5s ease-out;
 }
-
 
 @keyframes titulo {
   0% {

@@ -12,6 +12,11 @@ export default {
       "BlancoTransparente": "rgba(245, 245, 245, 0.775)",
       "transarente": "rgba(245, 245, 245, 0)",
       "negro":"rgb(0,0,0)",
+      "blancoEstrella":"#dbdbdb",
+      "colorFondo":"#242021",
+      "colorDeAccion":"#9290C3",
+      "colorActivoFront":"#E8751A",
+      "colorActivoBack":"#007F73",
     },
     backgroundImage: {
       "Fondo-Estrellas": "url('src/assets/Fondo.jpg')",
@@ -21,6 +26,7 @@ export default {
     },
     animation: {
       bajada: "normal pabajo 2s ease-in-out",
+      transicion: "normal 1s ease-in",
     },
     keyframes: {
       pabajo: {

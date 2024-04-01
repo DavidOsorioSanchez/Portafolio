@@ -25,7 +25,7 @@
 #top {
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: fixed; /* no se si fixed o relative T_T estoy indecizo */
   z-index: 1;
   left: 1vw;
   top: 1vh;
@@ -48,7 +48,7 @@
 
 .icono {
   color: #216fc7;
-  font-size: 4rem;
+  font-size: 3rem;
   background-color: whitesmoke;
 }
 

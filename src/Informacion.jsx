@@ -8,8 +8,8 @@ function Informacion() {
         <div className='w-screen h-auto flex justify-around flex-wrap-reverse items-center py-14'>
             <div className='w-2/4 flex flex-col gap-3'>
                 <p className='w-full bg-colorFondo text-blancoEstrella text-lg font-medium text-wrap'>
-                Soy David Osorio, un apasionado de la programación. Con más de una dos años de experiencia, me especializo en desarrollo web y móvil. Mi enfoque se centra en crear soluciones innovadoras y eficientes que satisfagan las necesidades del usuario. ¡Programemos juntos el futuro!</p>
-                <div className='flex w-full justify-around'>
+                Soy David Osorio, un apasionado de la programación. Con más de una dos años de practica, me especializo en desarrollo web y móvil. Mi enfoque se centra en crear soluciones innovadoras y eficientes que satisfagan las necesidades del usuario. ¡Programemos juntos el futuro!</p>
+                <div className='flex w-full justify-around flex-wrap gap-9'>
                     <div className='flex gap-4 items-center'>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" className='w-12 h-12 ' alt="no cargo" />
                         <p className='text-blancoEstrella text-xl'>David Alejandro Osorio Sanchez</p>

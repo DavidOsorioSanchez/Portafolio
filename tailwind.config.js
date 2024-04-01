@@ -30,7 +30,7 @@ export default {
     animation: {
       bajada: "normal pabajo 2s ease-in-out",
       transicion: "normal 1s ease-in",
-      giro: "giro 10s linear infinite",
+      giro: "giro 20s linear infinite",
     },
     keyframes: {
       pabajo: {

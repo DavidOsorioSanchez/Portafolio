@@ -44,7 +44,11 @@ function Portafolio() {
           <img className='w-24 h-w-24' src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png" alt="no cargo" />
           <img className='w-24 h-w-24' src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png" alt="no cargo" />
         </ComponenteTarjeta>
-        
+        <ComponenteTarjeta retrazo="duration-300" tipoFront={habilitadoFront} imagenTarjeta="bg-portafolio" titulo="portafolio" >
+          <img className='w-24 h-w-24' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png" alt="no cargo" />
+          <img className='w-24 h-w-24' src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="no cargo" />
+          <img className='w-24 h-w-24' src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg" alt="no cargo" />
+        </ComponenteTarjeta>
       </div>
     </div>
   )

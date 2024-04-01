@@ -4,18 +4,17 @@
   overflow-x: hidden;
   background-image: url(./../assets/Fondo.jpg);
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0.6rem;
   background-color: #242021;
-  
 }
 
-::-webkit-scrollbar-button{
+::-webkit-scrollbar-button {
   display: none;
 }
 
-::-webkit-scrollbar-thumb{
-  border: 0.1rem  solid #8c8c8c;
+::-webkit-scrollbar-thumb {
+  border: 0.1rem solid #8c8c8c;
   background-color: #dbdbdb;
   border-radius: 3rem;
 }
@@ -36,7 +35,6 @@
   align-items: flex-start;
   width: auto;
   height: auto;
-  
 }
 
 .titulo {
@@ -47,7 +45,7 @@
 }
 
 .icono {
-  color: #00A9FF;
+  color: #00a9ff;
   font-size: 3rem;
   background-color: whitesmoke;
 }
@@ -75,5 +73,3 @@
     transform: scale(1);
   }
 }
-
-

@@ -1,7 +1,7 @@
 import React from "react";
 function Footer() {
   return (
-    <footer className="w-screen h-auto flex flex-col  min-h-24 bg-colorFooter border-solid border-t-2 border-colorBordePerfil gap-20 py-12">
+    <footer className="!w-screen h-auto flex flex-col  min-h-24 bg-colorFooter border-solid border-t-2 border-colorBordePerfil gap-20 py-12">
       <p className="text-center text-5xl text-blancoEstrella">Formulario</p>
       <form className="w-screen flex gap-5 flex-wrap justify-around">
         <input

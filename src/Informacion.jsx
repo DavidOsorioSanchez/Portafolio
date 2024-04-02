@@ -47,9 +47,9 @@ function Informacion() {
       </div>
 
       <div className="w-96 h-96 relative">
-        <div className="w-96 h-96 -top-1 absolute rounded-full border-dashed border-8 animate-giro border-colorBordePerfil md:w-72 md:h-72"></div>
+        <div className="w-96 h-96 -top-1 absolute rounded-full border-dashed border-8 animate-giro border-colorBordePerfil md:w-60 md:h-60"></div>
         <img
-          className="w-96 h-96 absolute rounded-full md:w-72 md:h-72"
+          className="w-96 h-96 absolute rounded-full md:w-60 md:h-60"
           src={fotoSinFondo}
           alt="la imagen no marco"
         />

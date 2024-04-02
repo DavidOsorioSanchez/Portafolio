@@ -42,6 +42,7 @@
   font-size: 2rem;
   color: whitesmoke;
   text-wrap: wrap;
+  word-wrap: break-word;
   z-index: 100;
 }
 

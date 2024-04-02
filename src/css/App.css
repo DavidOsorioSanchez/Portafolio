@@ -41,6 +41,7 @@
   font-weight: bold;
   font-size: 2rem;
   color: whitesmoke;
+  text-wrap: wrap;
   z-index: 100;
 }
 

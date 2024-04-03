@@ -7,6 +7,11 @@ import "././css/Portada.scss";
 function Portada() {
   return (
     <div class="main">
+      <img
+        className="imagenFondo"
+        src="https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/non-4k/original/07.jpg?3"
+        alt="no cargo"
+      />
       {/* tarjeta parte izquierda */}
       <Logos
         miAnimacion="JS"

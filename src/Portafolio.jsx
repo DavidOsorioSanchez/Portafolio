@@ -47,7 +47,7 @@ function Portafolio() {
           <>
             <ComponenteTarjeta
               retrazo="duration-150"
-              imagenTarjeta="bg-targeta1"
+              imagenTarjeta="bg-tarjeta1"
               titulo="Explosion"
               subtitulo="Front-end &  Back-end"
             >
@@ -62,7 +62,7 @@ function Portafolio() {
           <>
             <ComponenteTarjeta
               retrazo="duration-150"
-              imagenTarjeta="bg-targeta1"
+              imagenTarjeta="bg-tarjeta1"
               titulo="Explosion"
               subtitulo="Front-end &  Back-end"
             >
@@ -74,7 +74,7 @@ function Portafolio() {
             </ComponenteTarjeta>
             <ComponenteTarjeta
               retrazo="duration-450"
-              imagenTarjeta="bg-targeta3"
+              imagenTarjeta="bg-tarjeta3"
               titulo="Casa"
               subtitulo="Back-end"
             >
@@ -91,7 +91,7 @@ function Portafolio() {
             </ComponenteTarjeta>
             <ComponenteTarjeta
               retrazo="duration-300"
-              imagenTarjeta="bg-targeta2"
+              imagenTarjeta="bg-tarjeta2"
               titulo="Piedras"
               subtitulo="Front-end"
             >
@@ -129,7 +129,7 @@ function Portafolio() {
           <>
             <ComponenteTarjeta
               retrazo="duration-150"
-              imagenTarjeta="bg-targeta1"
+              imagenTarjeta="bg-tarjeta1"
               titulo="Explosion"
               subtitulo="Front-end &  Back-end"
             >
@@ -141,7 +141,7 @@ function Portafolio() {
             </ComponenteTarjeta>
             <ComponenteTarjeta
               retrazo="duration-450"
-              imagenTarjeta="bg-targeta3"
+              imagenTarjeta="bg-tarjeta3"
               titulo="Casa"
               subtitulo="Back-end"
             >
@@ -161,7 +161,7 @@ function Portafolio() {
           <>
             <ComponenteTarjeta
               retrazo="duration-150"
-              imagenTarjeta="bg-targeta1"
+              imagenTarjeta="bg-tarjeta1"
               titulo="Explosion"
               subtitulo="Front-end &  Back-end"
             >
@@ -173,7 +173,7 @@ function Portafolio() {
             </ComponenteTarjeta>
             <ComponenteTarjeta
               retrazo="duration-300"
-              imagenTarjeta="bg-targeta2"
+              imagenTarjeta="bg-tarjeta2"
               subtitulo="Front-end"
             >
               <img

@@ -16,15 +16,15 @@ export default {
       colorActivoFront: "#E8751A",
       colorActivoBack: "#007F73",
       colorBordePerfil: "#00A9FF",
-      colorFooter: "#110f10"
+      colorFooter: "#110f10",
     },
     backgroundImage: {
       "Fondo-Estrellas": "url('src/assets/Fondo.jpg')",
-      targeta1:
+      tarjeta1:
         "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqZfhZAuaSRN2WvNVZLiIAgtvuVz14f5-gRg&usqp=CAU')",
-      targeta2:
+      tarjeta2:
         "url('https://img.freepik.com/free-photo/minimalistic-zen-stone-background_23-2150526023.jpg?w=360&t=st=1711574057~exp=1711574657~hmac=b6c74685e2e4d5390e98d7de51fef6352e44e70e4312e5d53ea85e2ef3bac3c6')",
-      targeta3:
+      tarjeta3:
         "url('https://planner5d.com/blog/content/images/size/w2000/2022/01/r-architecture-wDDfbanbhl8-unsplash-1.jpg')",
       portafolio: "url('/src/assets/portafolio.png')",
     },
@@ -45,7 +45,7 @@ export default {
       },
     },
     brightness: {
-      25: '.25',
+      25: ".25",
     },
   },
   plugins: [],

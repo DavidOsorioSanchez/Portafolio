@@ -8,7 +8,7 @@ function Informacion() {
     <div className="w-screen h-auto flex justify-around flex-wrap-reverse items-center py-14">
       <div className="w-2/4 flex flex-col gap-3">
         <p className="w-full bg-colorFondo text-blancoEstrella text-lg font-medium text-wrap">
-          Soy David Osorio, un apasionado de la programación. Con más de una dos
+          Soy David Osorio, un apasionado de la programación. Con más de dos
           años de practica, me especializo en desarrollo web y móvil. Mi enfoque
           se centra en crear soluciones innovadoras y eficientes que satisfagan
           las necesidades del usuario. ¡Programemos juntos el futuro!
@@ -46,10 +46,10 @@ function Informacion() {
         </div>
       </div>
 
-      <div className="w-96 h-96 relative">
-        <div className="w-96 h-96 -top-1 absolute rounded-full border-dashed border-8 animate-giro border-colorBordePerfil md:w-60 md:h-60"></div>
+      <div className="responsive w-96 h-96 relative">
+        <div className="responsive w-96 h-96 -top-1 absolute rounded-full border-dashed border-8 animate-giro border-colorBordePerfil "></div>
         <img
-          className="w-96 h-96 absolute rounded-full md:w-60 md:h-60"
+          className="responsive w-96 h-96 absolute rounded-full "
           src={fotoSinFondo}
           alt="la imagen no marco"
         />

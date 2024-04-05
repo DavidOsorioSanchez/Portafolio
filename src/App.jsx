@@ -5,7 +5,6 @@ import './css/App.css'
 import './css/index.css'
 import Portafolio from './Portafolio'
 import Informacion from './Informacion.jsx'
-import Footer from './Footer'
 function App() {
   return (
     <>
@@ -17,8 +16,6 @@ function App() {
       <Informacion/>
       
       <Portafolio/>
-
-      <Footer/>
 
     </>
   )  

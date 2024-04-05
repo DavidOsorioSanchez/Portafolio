@@ -24,7 +24,7 @@
 #top {
   display: flex;
   flex-direction: column;
-  position: fixed; /* no se si fixed o relative T_T estoy indecizo */
+  position: absolute; 
   z-index: 1;
   left: 1vw;
   top: 1vh;

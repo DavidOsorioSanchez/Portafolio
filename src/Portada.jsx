@@ -5,8 +5,17 @@ import "././css/App.css";
 import "././css/Portada.scss";
 
 function Portada() {
+  // const main = document.querySelector(".main");
+
+  // main.addEventListener("mousemove", (e) => {
+  //   let xPos = e.clientX;
+  //   let yPos = e.clientY;
+  //   console.log(xPos, yPos);
+  // });
+
   return (
-    <div class="main">
+    <div className="main">
+
       <img
         className="imagenFondo"
         src="https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/non-4k/original/07.jpg?3"

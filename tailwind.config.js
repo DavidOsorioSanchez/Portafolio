@@ -20,13 +20,9 @@ export default {
     },
     backgroundImage: {
       "Fondo-Estrellas": "url('src/assets/Fondo.jpg')",
-      tarjeta1:
-        "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqZfhZAuaSRN2WvNVZLiIAgtvuVz14f5-gRg&usqp=CAU')",
-      tarjeta2:
-        "url('https://img.freepik.com/free-photo/minimalistic-zen-stone-background_23-2150526023.jpg?w=360&t=st=1711574057~exp=1711574657~hmac=b6c74685e2e4d5390e98d7de51fef6352e44e70e4312e5d53ea85e2ef3bac3c6')",
-      tarjeta3:
-        "url('https://planner5d.com/blog/content/images/size/w2000/2022/01/r-architecture-wDDfbanbhl8-unsplash-1.jpg')",
-      portafolio: "url('/src/assets/portafolio.png')",
+      EnglishCorner: "url('./src/assets/EnglishCorner.png')",
+      ArteyForma: "url('./src/assets/ArteyForma.png')",
+      portafolio: "url('./src/assets/portafolio.png')",
     },
     animation: {
       bajada: "normal pabajo 2s ease-in-out",

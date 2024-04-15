@@ -15,7 +15,6 @@ function Portada() {
 
   return (
     <div className="main">
-
       <img
         className="imagenFondo"
         src="https://assets.hongkiat.com/uploads/minimalist-dekstop-wallpapers/non-4k/original/07.jpg?3"

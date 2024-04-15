@@ -19,10 +19,10 @@ export default {
       colorFooter: "#110f10",
     },
     backgroundImage: {
-      "Fondo-Estrellas": "url('src/assets/Fondo.jpg')",
+      "Fondo-Estrellas": "url('./src/assets/Fondo.jpg')",
       EnglishCorner: "url('./src/assets/EnglishCorner.png')",
-      ArteyForma: "url('./src/assets/ArteyForma.png')",
       portafolio: "url('./src/assets/portafolio.png')",
+      ArteyForma: "url('./src/assets/ArteyForma.png')",
     },
     animation: {
       bajada: "normal pabajo 2s ease-in-out",

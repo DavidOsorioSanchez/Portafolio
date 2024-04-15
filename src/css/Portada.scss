@@ -688,6 +688,325 @@
     right: auto;
     transform: rotate(0deg);
   }
+
+    @-moz-keyframes entradaJS {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaJS {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion SQL */
+  
+    @-moz-keyframes entradaSQL {
+      0% {
+          opacity: 1;
+        }
+      
+        100% {
+          opacity: 0;
+        }
+    }
+  
+    @keyframes entradaSQL {
+      0% {
+          opacity: 1;
+        }
+      
+        100% {
+          opacity: 0;
+        }
+    }
+  
+    /* animacion JAVA */
+  
+    @-moz-keyframes entradaSQL {
+    0% {
+        opacity: 1;
+      }
+    
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaJAVA {
+      0% {
+          opacity: 1;
+        }
+      
+        100% {
+          opacity: 0;
+        }
+    }
+  
+    /* animacion REACT */
+  
+    @-moz-keyframes entradaREACT {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaREACT {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion CSS */
+  
+    @-moz-keyframes entradaCSS {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaCSS {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion HTML */
+  
+    @-moz-keyframes entradaHTML {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaHTML {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion de la parte derecha */
+  
+    /* animacion Tailwind */
+    @-moz-keyframes entradaTAIL {
+    0% {
+        opacity: 1;
+      }
+    
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaTAIL {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion Bootstrap */
+  
+    @-moz-keyframes entradaBOOT {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaBOOT {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion Flutter */
+  
+    @-moz-keyframes entradaFLUTTER {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaFLUTTER {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion Dart  */
+  
+    @-moz-keyframes entradaDART {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaDART {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion SpringBoot */
+  
+    @-moz-keyframes entradaSPRING {
+     0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    @keyframes entradaSPRING {
+     0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  
+    /* animacion Python */
+  
+    @-moz-keyframes entradaPYTHON {
+      0% {
+          opacity: 1;
+        }
+      
+        100% {
+          opacity: 0;
+        }
+    }
+  
+    @keyframes entradaPYTHON {
+      0% {
+          opacity: 1;
+        }
+      
+        100% {
+          opacity: 0;
+        }
+    }
+
+    .JS {
+      -webkit-animation: reverse entradaJS 0.3s ease;
+      -moz-animation: reverse entradaJS 0.3s ease;
+      animation: reverse entradaJS 0.3s ease;
+    }
+
+    .SQL {
+      -webkit-animation: reverse entradaSQL 0.6s ease;
+      -moz-animation: reverse entradaSQL 0.6s ease;
+      animation: reverse entradaSQL 0.6s ease;
+    }
+
+    .JAVA {
+      -webkit-animation: reverse entradaJAVA 0.9s ease;
+      -moz-animation: reverse entradaJAVA 0.9s ease;
+      animation: reverse entradaJAVA 0.9s ease;
+    }
+
+    .REACT {
+      -webkit-animation: reverse entradaREACT 1.2s ease;
+      -moz-animation: reverse entradaREACT 1.2s ease;
+      animation: reverse entradaREACT 1.2s ease;
+    }
+
+    .HTML {
+      -webkit-animation: reverse entradaHTML 1.5s ease;
+      -moz-animation: reverse entradaHTML 1.5s ease;
+      animation: reverse entradaHTML 1.5s ease;
+    }
+
+    .CSS {
+      -webkit-animation: reverse entradaCSS 1.8s ease;
+      -moz-animation: reverse entradaCSS 1.8s ease;
+      animation: reverse entradaCSS 1.8s ease;
+    }
+
+    .TAIL {
+      -webkit-animation: reverse entradaTAIL 2.1s ease;
+      -moz-animation: reverse entradaTAIL 2.1s ease;
+      animation: reverse entradaTAIL 2.1s ease;
+    }
+
+    .BOOT {
+      -webkit-animation: reverse entradaBOOT 2.4s ease;
+      -moz-animation: reverse entradaBOOT 2.4s ease;
+      animation: reverse entradaBOOT 2.4s ease;
+    }
+
+    .FLUTTER {
+      -webkit-animation: reverse entradaFLUTTER 2.7s ease;
+      -moz-animation: reverse entradaFLUTTER 2.7s ease;
+      animation: reverse entradaFLUTTER 2.7s ease;
+    }
+
+    .DART {
+      -webkit-animation: reverse entradaDART 3s ease;
+      -moz-animation: reverse entradaDART 3s ease;
+      animation: reverse entradaDART 3s ease;
+    }
+
+    .SPRING {
+      -webkit-animation: reverse entradaSPRING 3.3s ease;
+      -moz-animation: reverse entradaSPRING 3.3s ease;
+      animation: reverse entradaSPRING 3.3s ease;
+    }
+
+    .PYTHON {
+      -webkit-animation: reverse entradaPYTHON 3.6s ease;
+      -moz-animation: reverse entradaPYTHON 3.6s ease;
+      animation: reverse entradaPYTHON 3.6s ease;
+    }
+
 }
 
 

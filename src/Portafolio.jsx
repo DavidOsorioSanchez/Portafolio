@@ -46,28 +46,27 @@ function Portafolio() {
         {back && front ? (
           <>
             <ComponenteTarjeta
-              retrazo="duration-150"
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"
               subtitulo="Front-end &  Back-end"
             >
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                 alt="no cargo"
               />
@@ -76,65 +75,82 @@ function Portafolio() {
         ) : !back && !front ? (
           <>
             <ComponenteTarjeta
-              retrazo="duration-150"
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"
               subtitulo="Front-end &  Back-end"
             >
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                 alt="no cargo"
               />
             </ComponenteTarjeta>
 
             <ComponenteTarjeta
-              retrazo="duration-300"
               imagenTarjeta="bg-ArteyForma"
-              titulo="Piedras"
+              titulo="Esthetic Health"
               subtitulo="Front-end"
             >
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24 "
+                src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
+                alt="no cargo"
+              />
+              <img
+                className="w-24 h-24 "
+                src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
+                alt="no cargo"
+              />
+              <img
+                className="w-20 h-20 "
                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
+                alt="no cargo"
+              />
+              <img
+                className="w-20 h-20 "
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                 alt="no cargo"
               />
             </ComponenteTarjeta>
 
             <ComponenteTarjeta
-              retrazo="duration-300"
               imagenTarjeta="bg-portafolio"
-              titulo="portafolio"
+              titulo="Portafolio"
               subtitulo="Front-end"
             >
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24"
                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24"
                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
+                alt="no cargo"
+              />
+              <img
+                className="w-20 h-20"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
                 alt="no cargo"
               />
             </ComponenteTarjeta>
@@ -142,28 +158,27 @@ function Portafolio() {
         ) : back ? (
           <>
             <ComponenteTarjeta
-              retrazo="duration-150"
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"
               subtitulo="Front-end &  Back-end"
             >
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                 alt="no cargo"
               />
@@ -172,63 +187,81 @@ function Portafolio() {
         ) : front ? (
           <>
             <ComponenteTarjeta
-              retrazo="duration-150"
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"
               subtitulo="Front-end &  Back-end"
             >
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-24 h-24 "
                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24 "
+                className="w-20 h-20 "
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                 alt="no cargo"
               />
             </ComponenteTarjeta>
             <ComponenteTarjeta
-              retrazo="duration-300"
               imagenTarjeta="bg-ArteyForma"
+              titulo="Esthetic Health"
               subtitulo="Front-end"
             >
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24 "
+                src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
+                alt="no cargo"
+              />
+              <img
+                className="w-24 h-24 "
+                src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
+                alt="no cargo"
+              />
+              <img
+                className="w-20 h-20 "
                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
+                alt="no cargo"
+              />
+              <img
+                className="w-20 h-20 "
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                 alt="no cargo"
               />
             </ComponenteTarjeta>
 
             <ComponenteTarjeta
-              retrazo="duration-300"
               imagenTarjeta="bg-portafolio"
-              titulo="portafolio"
+              titulo="Portafolio"
               subtitulo="Front-end"
             >
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24"
                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                 alt="no cargo"
               />
               <img
-                className="w-24 h-w-24"
+                className="w-24 h-24"
                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
+                alt="no cargo"
+              />
+              <img
+                className="w-20 h-20"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
                 alt="no cargo"
               />
             </ComponenteTarjeta>

@@ -10,7 +10,7 @@ function Informacion() {
       <div className="w-3/5 flex flex-col gap-3">
         <p className="w-full bg-colorFondo text-blancoEstrella text-lg font-medium text-wrap">
           Soy David Osorio, un apasionado de la programación. Con más de dos
-          años de practica, me especializo en desarrollo Front-End. pero mas sin
+          años de practica, me especializo en desarrollo Front-End. mas sin
           embargo me desenvuelvo bastante bien en desarrolo Back-End y
           desarrollo movil. Mi enfoque se centra en crear soluciones innovadoras
           y eficientes que satisfagan las necesidades del usuario. ¡Programemos

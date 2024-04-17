@@ -20,9 +20,9 @@ export default {
     },
     backgroundImage: {
       "Fondo-Estrellas": "url('./src/assets/Fondo.jpg')",
-      EnglishCorner: "url('./src/assets/EnglishCorner.png')",
-      portafolio: "url('./src/assets/portafolio.png')",
-      ArteyForma: "url('./src/assets/ArteyForma.png')",
+      EnglishCorner: "url('src/assets/EnglishCorner.png')",
+      portafolio: "url('src/assets/portafolio.png')",
+      ArteyForma: "url('src/assets/ArteyForma.png')",
     },
     animation: {
       bajada: "normal pabajo 2s ease-in-out",

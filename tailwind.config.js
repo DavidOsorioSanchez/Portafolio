@@ -5,7 +5,14 @@ export default {
     backgroundSize: {
       total: "100% 100%",
     },
-    extend: {},
+    extend: {
+      backgroundImage:{
+      "Fondo-Estrellas": "url('./src/assets/Fondo.jpg')",
+      "EnglishCorner": "url('./src/assets/EnglishCorner.png')",
+      "portafolio": "url('./src/assets/portafolio.png')",
+      "ArteyForma": "url('./src/assets/ArteyForma.png')",
+    },
+  },
     colors: {
       BlancoTransparente: "rgba(245, 245, 245, 0.775)",
       transarente: "rgba(245, 245, 245, 0)",
@@ -18,12 +25,7 @@ export default {
       colorBordePerfil: "#00A9FF",
       colorFooter: "#110f10",
     },
-    backgroundImage: {
-      "Fondo-Estrellas": "url('./src/assets/Fondo.jpg')",
-      "EnglishCorner": "url('./src/assets/EnglishCorner.png')",
-      "portafolio": "url('./src/assets/portafolio.png')",
-      "ArteyForma": "url('./src/assets/ArteyForma.png')",
-    },
+    
     animation: {
       bajada: "normal pabajo 2s ease-in-out",
       transicion: "normal 1s ease-in",

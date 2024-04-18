@@ -7,10 +7,10 @@ export default {
     },
     extend: {
       backgroundImage:{
-      "Fondo-Estrellas": "url('./src/assets/Fondo.jpg')",
-      "EnglishCorner": "url('./src/assets/EnglishCorner.png')",
-      "portafolio": "url('./src/assets/portafolio.png')",
-      "ArteyForma": "url('./src/assets/ArteyForma.png')",
+      "Fondo-Estrellas": "url('src/assets/Fondo.jpg')",
+      "EnglishCorner": "url('src/assets/EnglishCorner.png')",
+      "portafolio": "url('src/assets/portafolio.png')",
+      "ArteyForma": "url('src/assets/ArteyForma.png')",
     },
   },
     colors: {

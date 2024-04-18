@@ -1,6 +1,7 @@
 :root {
   padding: 0rem;
   margin: 0%;
+  width: 100vw;
   overflow-x: hidden;
   background-image: url(./../assets/Fondo.jpg);
 }

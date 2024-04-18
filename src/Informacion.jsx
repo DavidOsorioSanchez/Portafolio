@@ -7,7 +7,7 @@ import "././css/App.css";
 function Informacion() {
   return (
     <div className="w-screen h-auto flex justify-around flex-wrap-reverse items-center py-14">
-      <div className="w-6/12 flex flex-col gap-3">
+      <div className="w-5/12 flex flex-col gap-3">
         <p className="w-full bg-colorFondo text-blancoEstrella text-lg font-medium text-wrap">
           Soy David Osorio, un apasionado de la programación. Con más de dos
           años de practica, me especializo en desarrollo Front-End. mas sin

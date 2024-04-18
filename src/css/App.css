@@ -1,7 +1,7 @@
 :root {
   padding: 0rem;
   margin: 0%;
-  overflow-x: none;
+  overflow-x: hidden;
   background-image: url(./../assets/Fondo.jpg);
 }
 ::-webkit-scrollbar {

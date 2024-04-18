@@ -7,7 +7,7 @@ import "././css/App.css";
 function Informacion() {
   return (
     <div className="w-screen h-auto flex justify-around flex-wrap-reverse items-center py-14">
-      <div className="w-5/12 flex flex-col gap-3">
+      <div className="w-5/12 flex flex-col gap-2">
         <p className="w-full bg-colorFondo text-blancoEstrella text-lg font-medium text-wrap">
           Soy David Osorio, un apasionado de la programación. Con más de dos
           años de practica, me especializo en desarrollo Front-End. mas sin
@@ -53,10 +53,10 @@ function Informacion() {
         </div>
       </div>
 
-      <div className="responsive max-w-80 h-80 relative">
-        <div className="responsive w-80 h-80 -top-1 absolute rounded-full border-dashed border-8 animate-giro border-colorBordePerfil "></div>
+      <div className="responsive w-96 h-96 relative">
+        <div className="responsive w-96 h-96 -top-1 absolute rounded-full border-dashed border-8 animate-giro border-colorBordePerfil "></div>
         <img
-          className="responsive w-80 h-80 absolute rounded-full "
+          className="responsive w-96 h-96 absolute rounded-full "
           src={fotoSinFondo}
           alt="la imagen no marco"
         />

@@ -52,8 +52,8 @@ function Portada() {
         links="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
       />
       <Logos
-        miAnimacion="BOOT"
-        links="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
+        miAnimacion="NEXT"
+        links="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
       />
       <Logos
         miAnimacion="FLUTTER"

@@ -112,14 +112,14 @@
   animation: reverse entradaTAIL 2.5s ease;
 }
 
-.BOOT {
+.NEXT {
   width: 9rem;
   top: 45vh;
   right: 25vw;
 
-  -webkit-animation: reverse entradaBOOT 3s ease;
-  -moz-animation: reverse entradaBOOT 3s ease;
-  animation: reverse entradaBOOT 3s ease;
+  -webkit-animation: reverse entradaNEXT 3s ease;
+  -moz-animation: reverse entradaNEXT 3s ease;
+  animation: reverse entradaNEXT 3s ease;
 }
 
 .FLUTTER {
@@ -474,9 +474,9 @@
   }
 }
 
-/* animacion Bootstrap */
+/* animacion NEXTjs */
 
-@-moz-keyframes entradaBOOT {
+@-moz-keyframes entradaNEXT {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -491,7 +491,7 @@
   }
 }
 
-@keyframes entradaBOOT {
+@keyframes entradaNEXT {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -580,7 +580,7 @@
   }
 }
 
-/* animacion SpringBoot */
+/* animacion SpringNEXT */
 
 @-moz-keyframes entradaSPRING {
   0% {
@@ -833,9 +833,9 @@
       }
     }
   
-    /* animacion Bootstrap */
+    /* animacion NEXTjs*/
   
-    @-moz-keyframes entradaBOOT {
+    @-moz-keyframes entradaNEXT {
       0% {
         opacity: 1;
       }
@@ -844,7 +844,7 @@
       }
     }
   
-    @keyframes entradaBOOT {
+    @keyframes entradaNEXT {
       0% {
         opacity: 1;
       }
@@ -977,10 +977,10 @@
       animation: reverse entradaTAIL 2.1s ease;
     }
 
-    .BOOT {
-      -webkit-animation: reverse entradaBOOT 2.4s ease;
-      -moz-animation: reverse entradaBOOT 2.4s ease;
-      animation: reverse entradaBOOT 2.4s ease;
+    .NEXT {
+      -webkit-animation: reverse entradaNEXT 2.4s ease;
+      -moz-animation: reverse entradaNEXT 2.4s ease;
+      animation: reverse entradaNEXT 2.4s ease;
     }
 
     .FLUTTER {

@@ -45,6 +45,40 @@ function Portafolio() {
       <div className="w-screen h-auto p-4  flex flex-wrap justify-around gap-x-2 gap-y-12 items-center">
         {back && front ? (
           <>
+            
+              <ComponenteTarjeta
+                imagenTarjeta="bg-altoFlora"
+                titulo="AltoFlora - server"
+                subtitulo="Front-end & Back-end"
+                link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
+
             <ComponenteTarjeta
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"
@@ -74,6 +108,39 @@ function Portafolio() {
           </>
         ) : !back && !front ? (
           <>
+            <ComponenteTarjeta
+                imagenTarjeta="bg-altoFlora"
+                titulo="AltoFlora - server"
+                subtitulo="Front-end & Back-end"
+                link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
+
             <ComponenteTarjeta
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"
@@ -158,6 +225,39 @@ function Portafolio() {
         ) : back ? (
           <>
             <ComponenteTarjeta
+                imagenTarjeta="bg-altoFlora"
+                titulo="AltoFlora - server"
+                subtitulo="Front-end & Back-end"
+                link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
+
+            <ComponenteTarjeta
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"
               subtitulo="Front-end &  Back-end"
@@ -186,6 +286,39 @@ function Portafolio() {
           </>
         ) : front ? (
           <>
+            <ComponenteTarjeta
+                imagenTarjeta="bg-altoFlora"
+                titulo="AltoFlora - server"
+                subtitulo="Front-end & Back-end"
+                link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
+
             <ComponenteTarjeta
               imagenTarjeta="bg-EnglishCorner"
               titulo="EnglishCorner"

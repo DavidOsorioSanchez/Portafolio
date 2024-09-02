@@ -11,6 +11,7 @@ export default {
       "EnglishCorner": "url('/src/assets/EnglishCorner.png')",
       "portafolio": "url('/src/assets/portafolio.png')",
       "ArteyForma": "url('/src/assets/ArteyForma.png')",
+      "altoFlora": "url('/src/assets/altoFlora.png')",
     },
   },
     colors: {

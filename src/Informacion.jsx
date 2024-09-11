@@ -1,4 +1,3 @@
-import React from "react";
 import fotoSinFondo from "./assets/fotoSinFondo.png";
 import Redes from "./redes";
 import "././css/index.css";
@@ -9,12 +8,15 @@ function Informacion() {
     <div className="w-screen h-auto flex justify-around flex-wrap-reverse items-center py-14">
       <div className="w-5/12 flex flex-col gap-2">
         <p className="w-full bg-colorFondo text-blancoEstrella text-lg font-medium text-wrap">
-          Soy David Osorio, un apasionado de la programación. Con más de dos
+          <b className="text-xl italic underline">Soy David Osorio</b>, un apasionado de la programación. Con más de dos
           años de practica, me especializo en desarrollo Front-End. mas sin
-          embargo me desenvuelvo bastante bien en desarrolo Back-End y
-          desarrollo movil. Mi enfoque se centra en crear soluciones innovadoras
-          y eficientes que satisfagan las necesidades del usuario. ¡Programemos
-          juntos el futuro!
+          embargo me desenvuelvo bastante bien en <b>desarrolo Back-End</b> y
+          <b> desarrollo movil.</b>
+          <br />
+          <br />
+          Mi enfoque se centra en crear soluciones innovadoras
+          y eficientes que satisfagan las necesidades del usuario. <i>¡Programemos
+          juntos el futuro!</i>
         </p>
         <div className="w-full h-auto flex flex-col gap-9">
           <div className="flex w-full justify-around flex-wrap gap-8">

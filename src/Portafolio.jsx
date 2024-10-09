@@ -45,7 +45,44 @@ function Portafolio() {
       <div className="w-screen h-auto p-4  flex flex-wrap justify-around gap-x-2 gap-y-12 items-center">
         {back && front ? (
           <>
-            
+            <ComponenteTarjeta
+                imagenTarjeta="bg-Comida"
+                titulo="Comida a un click"
+                subtitulo="Front-end & Back-end"
+                link="https://comida-a-un-click.vercel.app/"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
               <ComponenteTarjeta
                 imagenTarjeta="bg-altoFlora"
                 titulo="AltoFlora - server"
@@ -108,6 +145,44 @@ function Portafolio() {
           </>
         ) : !back && !front ? (
           <>
+          <ComponenteTarjeta
+                imagenTarjeta="bg-Comida"
+                titulo="Comida a un click"
+                subtitulo="Front-end & Back-end"
+                link="https://comida-a-un-click.vercel.app/"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
             <ComponenteTarjeta
                 imagenTarjeta="bg-altoFlora"
                 titulo="AltoFlora - server"
@@ -224,6 +299,44 @@ function Portafolio() {
           </>
         ) : back ? (
           <>
+        <ComponenteTarjeta
+                imagenTarjeta="bg-Comida"
+                titulo="Comida a un click"
+                subtitulo="Front-end & Back-end"
+                link="https://comida-a-un-click.vercel.app/"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
             <ComponenteTarjeta
                 imagenTarjeta="bg-altoFlora"
                 titulo="AltoFlora - server"
@@ -286,6 +399,45 @@ function Portafolio() {
           </>
         ) : front ? (
           <>
+            <ComponenteTarjeta
+                imagenTarjeta="bg-Comida"
+                titulo="Comida a un click"
+                subtitulo="Front-end & Back-end"
+                link="https://comida-a-un-click.vercel.app/"
+              >
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24"
+                  src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png" 
+                  alt="no cargo"
+                />
+                
+                <img
+                  className="w-24 h-24 "
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                  alt="no cargo"
+                />
+                <img
+                  className="w-24 h-24 "
+                  src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+                  alt="no cargo"
+                />
+              </ComponenteTarjeta>
+
             <ComponenteTarjeta
                 imagenTarjeta="bg-altoFlora"
                 titulo="AltoFlora - server"

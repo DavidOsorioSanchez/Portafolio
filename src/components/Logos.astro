@@ -1,0 +1,10 @@
+---
+interface Props {
+    miAnimacion: string;
+    links: string;
+}
+
+const { miAnimacion, links } = Astro.props;
+---
+
+<img class={`iconoProgramacion ${miAnimacion}`} src={links} alt="no cargo T_T"/>

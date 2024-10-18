@@ -1,0 +1,88 @@
+:root {
+    padding: 0rem;
+    margin: 0%;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: #242021;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 0.1rem solid #8c8c8c;
+    background-color: #dbdbdb;
+    border-radius: 3rem;
+}
+
+/*******************************navbar********************************/
+
+#top {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    left: 1vw;
+    top: 1vh;
+}
+
+#navbar {
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: whitesmoke;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    z-index: 100;
+}
+
+.icono {
+    color: #00a9ff;
+    font-size: 3rem;
+    background-color: whitesmoke;
+}
+
+.animacion {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.animacion:hover {
+    -webkit-animation: infinite titulo 2.5s ease-out;
+    animation: infinite titulo 2.5s ease-out;
+}
+
+@keyframes titulo {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        max-width: 300px !important;
+        max-height: 300px !important;
+    }
+}

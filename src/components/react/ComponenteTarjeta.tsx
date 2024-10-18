@@ -10,12 +10,12 @@ export default function ComponenteTarjeta({ children, imagenTarjeta, titulo, sub
     return (
         <a
             href={link}
-            className={`w-2/5 min-w-80  max-h-max h-96 rounded-lg animate-bajada aspect-video object-cover bg-no-repeat bg-cover bg-total ${imagenTarjeta}`}
+            className={`w-2/5 min-w-80 h-[22rem] object-cover bg-no-repeat bg-cover bg-total rounded-md ${imagenTarjeta}`}
             target="_blank"
             title="Contenido"
         >
             <div
-                className={`w-full h-full flex flex-col transition ease-in-out duration-300 rounded-lg opacity-0 hover:opacity-100 hover:bg-BlancoTransparente`}
+                className={`w-full !min-h-full flex flex-col rounded-md justify-around items-center transition ease-in-out gap-4 duration-300 opacity-0 hover:opacity-100 hover:bg-BlancoTransparente`}
             >
                 <div className="w-full h-1/2 flex justify-center items-end">
                     <div className="w-auto h-auto flex flex-col font-semibold ">
@@ -23,7 +23,7 @@ export default function ComponenteTarjeta({ children, imagenTarjeta, titulo, sub
                         <p className="text-center">{`${subtitulo}`}</p>
                     </div>
                 </div>
-                <div className="w-full h-1/2 flex flex-wrap justify-around items-center ">
+                <div className="w-full h-1/2 flex flex-wrap justify-center items-center ">
                     {children}
                 </div>
             </div>

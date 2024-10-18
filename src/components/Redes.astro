@@ -13,13 +13,14 @@ const { nombre, linkPerfil, linkImg, redondo, tieneFondo } = Astro.props;
 <div class="flex gap-4 items-center">
     <img
         src={linkImg}
-        class={`w-12 h-12 p-1 ${redondo} ${tieneFondo}`}
+        class={`w-12 h-12 p-1 ${redondo} ${tieneFondo} aspect-square object-scale-down`}
         alt="no cargo"
     />
     <a
-        class="text-blancoEstrella text-xl active:text-colorBordePerfil active:underline active:decoration-solid"
         href={linkPerfil}
+        class="text-blancoEstrella text-xl active:text-colorBordePerfil active:underline active:decoration-solid"
         target="_blank"
+        title="redes"
     >
         {`${nombre}`}
     </a>

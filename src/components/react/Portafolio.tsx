@@ -50,33 +50,33 @@ export default function Portafolio() {
                             link="https://comida-a-un-click.vercel.app/"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
 
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
                                 alt="no cargo"
                             />
@@ -88,27 +88,27 @@ export default function Portafolio() {
                             link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
                                 alt="no cargo"
                             />
@@ -118,24 +118,25 @@ export default function Portafolio() {
                             imagenTarjeta="bg-EnglishCorner"
                             titulo="EnglishCorner"
                             subtitulo="Front-end &  Back-end"
+                            link="https://github.com/DavidOsorio/english-corner"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                                 alt="no cargo"
                             />
@@ -150,33 +151,33 @@ export default function Portafolio() {
                             link="https://comida-a-un-click.vercel.app/"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
 
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
                                 alt="no cargo"
                             />
@@ -188,27 +189,27 @@ export default function Portafolio() {
                             link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
                                 alt="no cargo"
                             />
@@ -218,24 +219,25 @@ export default function Portafolio() {
                             imagenTarjeta="bg-EnglishCorner"
                             titulo="EnglishCorner"
                             subtitulo="Front-end &  Back-end"
+                            link="https://github.com/DavidOsorio/english-corner"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                                 alt="no cargo"
                             />
@@ -245,24 +247,25 @@ export default function Portafolio() {
                             imagenTarjeta="bg-ArteyForma"
                             titulo="Esthetic Health"
                             subtitulo="Front-end"
+                            link="https://github.com/DavidOsorio/esthetic-health"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                                 alt="no cargo"
                             />
@@ -272,29 +275,30 @@ export default function Portafolio() {
                             imagenTarjeta="bg-portafolio"
                             titulo="Portafolio"
                             subtitulo="Front-end"
+                            link="https://github.com/DavidOsorio/remake-portafolio"
                         >
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20"
+                                className="w-20 h-20 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
                                 alt="no cargo"
                             />
@@ -309,33 +313,33 @@ export default function Portafolio() {
                             link="https://comida-a-un-click.vercel.app/"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
 
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
                                 alt="no cargo"
                             />
@@ -347,27 +351,27 @@ export default function Portafolio() {
                             link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
                                 alt="no cargo"
                             />
@@ -377,24 +381,25 @@ export default function Portafolio() {
                             imagenTarjeta="bg-EnglishCorner"
                             titulo="EnglishCorner"
                             subtitulo="Front-end &  Back-end"
+                            link="https://github.com/DavidOsorio/english-corner"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                                 alt="no cargo"
                             />
@@ -409,33 +414,33 @@ export default function Portafolio() {
                             link="https://comida-a-un-click.vercel.app/"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
 
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
                                 alt="no cargo"
                             />
@@ -448,27 +453,27 @@ export default function Portafolio() {
                             link="https://alto-flora-copete-crew-zsdh.vercel.app/en"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/300px-Typescript_logo_2020.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/1024px-Spring_Boot.svg.png"
                                 alt="no cargo"
                             />
@@ -478,24 +483,25 @@ export default function Portafolio() {
                             imagenTarjeta="bg-EnglishCorner"
                             titulo="EnglishCorner"
                             subtitulo="Front-end &  Back-end"
+                            link="https://github.com/DavidOsorio/english-corner"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                                 alt="no cargo"
                             />
@@ -504,24 +510,25 @@ export default function Portafolio() {
                             imagenTarjeta="bg-ArteyForma"
                             titulo="Esthetic Health"
                             subtitulo="Front-end"
+                            link="https://github.com/DavidOsorio/esthetic-health"
                         >
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://res.cloudinary.com/thewebmaster/image/upload/c_scale,f_auto,q_auto:best,w_516/images/html/html5.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://blog.desafiolatam.com/wp-content/uploads/2018/05/javascript-logo.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20 "
+                                className="w-20 h-20 aspect-square object-scale-down "
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
                                 alt="no cargo"
                             />
@@ -531,29 +538,30 @@ export default function Portafolio() {
                             imagenTarjeta="bg-portafolio"
                             titulo="Portafolio"
                             subtitulo="Front-end"
+                            link="https://github.com/DavidOsorio/remake-portafolio"
                         >
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1024px-React_Logo_SVG.svg.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24 "
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://raw.githubusercontent.com/github/explore/5cc0a03a302ec862c4aeac2a22a513ae31c35432/topics/astro/astro.png"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-24 h-24"
+                                className="w-24 h-24 aspect-square object-scale-down"
                                 src="https://img-resize-cdn.joshmartin.ch/2000x0%2C363e360e8516e42e965658dab267b06b94b2899a751b80079cfce35583aa080c/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
                                 alt="no cargo"
                             />
                             <img
-                                className="w-20 h-20"
+                                className="w-20 h-20 aspect-square object-scale-down"
                                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png"
                                 alt="no cargo"
                             />

@@ -3,15 +3,16 @@ interface Props {
     imagenTarjeta: string;
     titulo: string;
     subtitulo: string;
-    link?: string;
+    link: string;
 }
 
 export default function ComponenteTarjeta({ children, imagenTarjeta, titulo, subtitulo, link }:Props) {
     return (
         <a
-            className={`w-2/5 min-w-80  max-h-max h-96 rounded-lg animate-bajada object-cover bg-no-repeat bg-cover bg-total ${imagenTarjeta}`}
             href={link}
+            className={`w-2/5 min-w-80  max-h-max h-96 rounded-lg animate-bajada aspect-video object-cover bg-no-repeat bg-cover bg-total ${imagenTarjeta}`}
             target="_blank"
+            title="Contenido"
         >
             <div
                 className={`w-full h-full flex flex-col transition ease-in-out duration-300 rounded-lg opacity-0 hover:opacity-100 hover:bg-BlancoTransparente`}

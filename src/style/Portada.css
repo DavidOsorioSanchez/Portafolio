@@ -220,13 +220,13 @@
     animation: reverse entradaNODE 3.5s ease;
 }
 
-.FAST {
+.DOCKER {
     width: 9rem;
     top: 20vh;
     right: 2vw;
-    -webkit-animation: reverse entradaFAST 3.5s ease;
-    -moz-animation: reverse entradaFAST 3.5s ease;
-    animation: reverse entradaFAST 3.5s ease;
+    -webkit-animation: reverse entradaDOCKER 3.5s ease;
+    -moz-animation: reverse entradaDOCKER 3.5s ease;
+    animation: reverse entradaDOCKER 3.5s ease;
 }
 /* animacion de la parte izquierda */
 
@@ -790,8 +790,8 @@
     }
 }
 
-/* amimacion de fastapi */
-@-moz-keyframes entradaFAST {
+/* amimacion de DOCKERapi */
+@-moz-keyframes entradaDOCKER {
     0% {
         top: 20vh;
         -webkit-transform: rotate(0deg);
@@ -812,7 +812,7 @@
     }
 }
 
-@keyframes entradaFAST {
+@keyframes entradaDOCKER {
     0% {
         top: 20vh;
         -webkit-transform: rotate(0deg);
@@ -1059,7 +1059,7 @@
         animation: reverse TabletAnimation 4.5s ease;
     }
 
-    .FAST {
+    .DOCKER {
         width: 7rem;
         height: 7rem;
         -webkit-animation: reverse TabletAnimation 4.8s ease;

@@ -1,6 +1,6 @@
 ---
 import Apuntes from './react/Apuntes';
-
+import "../style/App.css";
 
 interface Props {
     imagen: string;
@@ -20,7 +20,7 @@ interface Props {
 const { imagen, link, titulo, targetTag = "_blank", cargo, descripcion, fechaInicio, fechaFin, apunte1, otroApunte, apunte2 } = Astro.props;
 ---
 
-<a href={link} target={targetTag} class="flex flex-nowrap items-center w-4/6 bg-BlancoTransparente rounded-lg transition-all ease-in duration-100 animation-bajada flex-col lg:flex-row ">
+<a href={link} target={targetTag} class="flex flex-nowrap items-center w-4/6 bg-BlancoTransparente rounded-lg flex-col lg:flex-row" id="tarjetaTrabajo">
     <img src={imagen} alt="no cargo" class="h-40 w-40 aspect-square rounded-full m-2 object-cover lg:h-60 lg:w-60 lg:rounded-tl-lg lg:rounded-bl-lg lg:rounded-tr-none lg:rounded-br-none lg:m-1 lg:object-cover"/>
     <div class="w-full max-w-screen-sm flex flex-col p-2 overflow-y-clip md:max-w-screen-lg">
         <header class=" inline-flex flex-col justify-evenly !text-center items-center mb-4 gap-y-2 gap-x-4 flex-wrap md:w-full min-[465px]:flex-row">

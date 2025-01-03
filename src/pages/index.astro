@@ -1,0 +1,24 @@
+---
+import Navbar from '../components/Navbar.astro';
+import Portada from '../components/Portada.astro';
+import Informacion from '../components/Informacion.astro';
+import Portafolio from '../components/react/Portafolio.tsx';
+import Experiencia from '../components/Experiencia.astro';
+---
+
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/programming-svgrepo-com.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Pggina mas que todo para mostrar mis trabajos y todo lo relacionado con mi carrera de programacion." />
+		<title>David Osorio - Portafolio</title>
+	</head>
+	<body class="bg-colorFondo text-white">
+		<Navbar />
+		<Portada />
+		<Informacion />
+		<Experiencia />
+		<Portafolio client:load />
+	</body>
+</html>

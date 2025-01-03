@@ -1,0 +1,28 @@
+---
+interface Props {
+    nombre: string;
+    linkPerfil: string;
+    linkImg: string;
+    redondo: string;
+    tieneFondo: string;
+}
+
+const { nombre, linkPerfil, linkImg, redondo, tieneFondo } = Astro.props;
+---
+
+<div class="flex gap-4 items-center">
+    <img
+        src={linkImg}
+        class={`w-12 h-12 p-1 ${redondo} ${tieneFondo} aspect-square object-scale-down`}
+        alt="no cargo"
+        loading="lazy"
+    />
+    <a
+        href={linkPerfil}
+        class="text-blancoEstrella text-xl active:text-colorBordePerfil active:underline active:decoration-solid"
+        target="_blank"
+        title="redes"
+    >
+        {`${nombre}`}
+    </a>
+</div>

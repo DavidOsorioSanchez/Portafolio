@@ -1,0 +1,75 @@
+---
+import Redes from "./Redes.astro";
+---
+
+<article
+    class="w-screen h-auto flex justify-around flex-wrap items-center py-14 bg-Fondo-Estrellas"
+>
+<p class="w-screen h-auto flex justify-center text-blancoEstrella font-bold text-5xl my-8">Informacion</p>
+    <div class="w-11/12 sm:w-5/6 flex flex-col gap-2 md:w-5/12">
+        
+        <p
+            class="w-full bg-colorFondo text-blancoEstrella text-lg font-medium text-wrap"
+        >
+            <b class="text-xl italic underline">Soy David Osorio</b>, un
+            apasionado de la programación. Con más de dos años de practica, me
+            especializo en desarrollo Front-End. mas sin embargo me desenvuelvo
+            bastante bien en <b>desarrolo Back-End</b> y
+            <b> desarrollo movil.</b>
+            <br />
+            <br />
+            Mi enfoque se centra en crear soluciones innovadoras y eficientes que
+            satisfagan las necesidades del usuario. <i
+                >¡Programemos juntos el futuro!</i
+            >
+        </p>
+        <div class="w-full h-auto flex flex-col gap-9">
+            <div class="flex w-full justify-around flex-wrap gap-8">
+                <Redes
+                    nombre="David Alejandro Osorio Sanchez"
+                    linkPerfil="https://www.linkedin.com/in/david-alejandro-osorio-sanchez-662a6624b/?trk=public-profile-join-page"
+                    linkImg="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+                    redondo="rounded-none"
+                    tieneFondo="bg-transparente"
+                />
+
+                <Redes
+                    nombre="@DavidOsorioSanchez"
+                    linkPerfil="https://github.com/DavidOsorioSanchez/Portafolio.git"
+                    linkImg="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"
+                    redondo="rounded-full"
+                    tieneFondo="bg-blancoEstrella"
+                />
+            </div>
+            <div class="flex w-full justify-around flex-wrap gap-9">
+                <Redes
+                    nombre="daalosx@gmail.com"
+                    linkPerfil="https://mail.google.com/mail/u/0/#inbox"
+                    linkImg="/icons/gmail.webp"
+                    redondo="rounded-none"
+                    tieneFondo="bg-transparente"
+                />
+                <Redes
+                    nombre="+57 302-7738340"
+                    linkPerfil="https://wa.me/573027738340?text=Hola!%20vengo%20de%20tu%20portafolio%20y%20quiero%20saber%20si%20puedo%20hablar%20con%20usted."
+                    linkImg="/icons/whatsapp.webp"
+                    redondo="rounded-none"
+                    tieneFondo="bg-transparente"
+                />
+            </div>
+        </div>
+    </div>
+
+    <div class="responsive w-96 h-96 relative">
+        <div
+            class="responsive w-96 h-96 -top-1 absolute rounded-full border-dashed border-8 animate-giro border-colorBordePerfil "
+        >
+        </div>
+        <img
+            class="responsive w-96 h-96 absolute rounded-full float-left list-outside"
+            src="/fotoSinFondo.webp"
+            alt="la imagen no marco"
+            loading="lazy"
+        />
+    </div>
+</article>

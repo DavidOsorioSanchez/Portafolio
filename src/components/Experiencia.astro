@@ -1,0 +1,39 @@
+---
+import Trabajos from "./Trabajo.astro";
+---
+
+<article class="flex flex-col justify-center gap-10 items-center my-10">
+    <p
+        class="w-fit h-auto flex justify-center text-blancoEstrella font-bold text-5xl"
+    >
+        experiencia
+    </p>
+    <section class="w-full h- flex flex-col justify-center items-center gap-y-6">
+        <Trabajos
+            imagen="Gluky.webp"
+            cargo="Desarrollo Front-End"
+            titulo="Grupo Gluky"
+            fechaInicio="Jun | 2022"
+            fechaFin="nov | 2023"
+            descripcion="Fui recomendado del Servicio Nacional de Aprendizaje (SENA) por mi profesor. Estuve trabajando principalmente en la parte Front-End haciendo mantenimiento de código con Angular 8, Ionic, Firebasey PHP. "
+            link="https://gluky.com/"
+            otroApunte={false}
+
+            apunte1="mi fuerza era PHP, ya que acababa de salir del Servicio Nacional de Aprendizaje (SENA)."
+        />
+
+        <Trabajos
+            imagen="defaultFoto.webp"
+            cargo="Desarrollo Freelance"
+            titulo="Trabajos independiente"
+            fechaInicio="Apr | 2024"
+            fechaFin="Present"
+            descripcion="Actualmente trabajo como freelance con mi stack favorito (React, Spring y MySQL), suelo trabajar con encargos ya sea para una web o en otros casos dando clases de Spring o inglés."
+            link="https://portafolio-david-osorio-sanchez.vercel.app/"
+            otroApunte={true}
+
+            apunte1="el último trabajo que hice fue enseñar a unos estudiantes universitarios sobre Thymeleaf, MySQL y un CRUD de APIs para aplicar en su proyecto nal de semestre."
+            apunte2="Actualmente estoy construyendo un sitio web personalizado con angular 18 y spring boot. se llama CramEnglish."
+        />
+    </section>
+</article>
